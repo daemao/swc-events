@@ -53,6 +53,8 @@ const toLogin = ()=>{
       localStorage.setItem('token_type', token_type);
       axiosInstance.addToken(access_token,token_type)
       axiosInstance.get('/api/user').then(res=>{
+        const data = res.data;
+        data.permissions = res.data.permissions.reduce((acc,cur)=>{acc[cur.name]=true;return acc;},{})
         localStorage.setItem('user',JSON.stringify(res.data))
         router.push('/events')
       })

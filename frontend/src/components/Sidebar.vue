@@ -1,8 +1,7 @@
 <template>
   <el-menu :router="true" >
     <el-menu-item-group>
-      <el-menu-item v-for="route in routes" :index="route.route">
-<!--      <el-menu-item v-for="route in filteredRoutes" :index="route.route">-->
+      <el-menu-item v-for="route in filteredRoutes" :index="route.route">
         {{$t(`sidebar.${route.label}`)}}
       </el-menu-item>
       <el-menu-item @click="setLocale('ru')">
