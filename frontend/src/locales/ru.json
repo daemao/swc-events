@@ -1,0 +1,59 @@
+{
+  "login_page": {
+    "header": "Войти в систему",
+    "login": "Логин",
+    "password": "Пароль",
+    "to_register": "Нет аккаунта? Зарегистрироваться",
+    "to_login": "Войти в систему"
+  },
+  "errors": {
+    "not_authorized": "Неверный логин или пароль"
+  },
+  "register_page": {
+    "header": "Зарегистрироваться в системе",
+    "login": "Логин",
+    "password": "Пароль",
+    "password_confirmation": "Подтверждение пароля",
+    "first_name": "Имя",
+    "last_name": "Фамилия",
+    "birthdate": "Дата рождения",
+    "to_login": "Уже зарегистрированы? Войти",
+    "to_register": "Зарегистрироваться",
+    "registered": "Зарегистрирован"
+  },
+  "validators": {
+    "required": "Обязательное поле"
+  },
+  "sidebar": {
+    "events": "События",
+    "users": "Пользователи",
+    "events_create": "Создать событие"
+
+  },
+  "events": {
+    "author_name": "Автор",
+    "name": "Наименование",
+    "body": "Текст",
+    "date": "Дата",
+    "create": "Создать",
+    "subscribe": "Подписаться",
+    "unsubscribe": "Отписаться",
+    "subscribed": "Отписан",
+    "unsubscribed": "Отписаться",
+    "delete": "Удалить",
+    "update": "Обновить"
+  },
+  "users": {
+    "name": "Имя Фамилия",
+    "username": "Логин",
+    "birthdate": "Дата рождения",
+    "registration_date": "Дата регистрации"
+  },
+  "auth": {
+    "logout": "Выйти"
+  },
+  "locales": {
+    "ru": "Русский",
+    "en": "Английский"
+  }
+}

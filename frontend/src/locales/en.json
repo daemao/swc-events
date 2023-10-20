@@ -1,0 +1,59 @@
+{
+  "login_page": {
+    "header": "Login",
+    "login": "login",
+    "password": "password",
+    "to_register": "Sign up",
+    "to_login": "Sign in"
+  },
+  "errors": {
+    "not_authorized": "Invalid login or password"
+  },
+  "register_page": {
+    "header": "Register",
+    "login": "Login",
+    "password": "Password",
+    "password_confirmation": "Password confirmation",
+    "first_name": "First name",
+    "last_name": "Last name",
+    "birthdate": "Birthdate",
+    "to_login": "Sign in",
+    "to_register": "To Register",
+    "registered": "Registered"
+  },
+  "validators": {
+    "required": "Required field"
+  },
+  "sidebar": {
+    "events": "Events",
+    "users": "Users",
+    "events_create": "Create event"
+
+  },
+  "events": {
+    "author_name": "Author",
+    "name": "Name",
+    "body": "Body",
+    "date": "Date",
+    "create": "Create",
+    "subscribe": "Subscribe",
+    "unsubscribe": "Unsubscribe",
+    "subscribed": "Subscribed",
+    "unsubscribed": "Unsubscribed",
+    "delete": "Delete",
+    "update": "Update"
+  },
+  "users": {
+    "name": "Имя Фамилия",
+    "username": "Логин",
+    "birthdate": "Дата рождения",
+    "registration_date": "Дата регистрации"
+  },
+  "auth": {
+    "logout": "Выйти"
+  },
+  "locales": {
+    "ru": "Русский",
+    "en": "Английский"
+  }
+}
